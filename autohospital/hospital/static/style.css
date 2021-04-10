@@ -1,0 +1,177 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.p1 {
+     font-family: Dosis, "Open Sans", sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+     line-height: 48px;
+}
+
+.p2 {
+     font-family: Dosis, "Open Sans" sans-serif;
+     font-size: 30px;
+     font-weight: 600;
+     line-height: 48px;
+}
+
+.p3 {
+     font-family: Dosis, "Open Sans" sans-serif;
+     font-size: 40px;
+     font-weight: 600;
+     line-height: 48px;
+     color: #0facf3;
+}
+
+.typewriter {
+     font-family: "Open Sans" sans-serif;
+     font-size: 40px;
+     font-weight: 600;
+     line-height: 40px;
+}
+
+.p4 {
+     font-family: "Open Sans" sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 30px;
+     margin-top: 40px;
+}
+
+.btn-content {
+    margin-top: 100px;
+    font-family: "Open Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-content a {
+    width: 20%;
+    border-radius: 50px;
+}
+
+  /* scontent at the bottom of the video/page */
+  .content {
+    position: absolute;
+    top: 120px;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+  
+
+.navbar h2 {
+    margin: 50px;
+    margin-top: 25px;  
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.btn-nav {
+    margin-right: 90px;
+    margin-top: -20px;
+}
+
+/* Our Facility */
+.row {
+   margin-right: 60px;
+   overflow: hidden;
+}
+.ourfacility {
+    margin-top: 570px;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(243,243,243);
+}
+
+.ourfacility h2 {
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.ourfacility span {
+    color: orange;
+}
+
+.facility_icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 1px solid #CFCFCF;
+    padding: 8px;
+    color: orange;
+    border-radius: 50%;
+}
+
+.facilities p{
+   padding: 10px;
+   line-height: 20px;
+   font-size: 14px;
+   line-height: 24px;
+   color: #656565;
+   font-family: 'Roboto', sans-serif;
+}
+
+.facilities h4 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+
+
+

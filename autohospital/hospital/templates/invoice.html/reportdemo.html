@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../static/report.css">
+</head>
+<body>
+    <header>{{pat_data}}
+      <div class="title">
+        <h1>Medical Report</h1>
+      </div>
+      <div class="logo">
+        <img src="/images/disease-prevention.png" alt="" />
+      </div>
+    </header>
+    <div class="container report-form">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <p class="input-details">Name:</p>
+            <input type="text" id="name" placeholder="Enter Your Name" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Address:</p>
+            <textarea name="address" id="address" cols="30" rows="2" placeholder="Enter Your Address" ></textarea>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Birth Date:</p>
+            <input type="date" id="birthdate" placeholder="Enter Your DOB">
+          </div>
+        <!-- </div> -->
+        <!-- <div class="phone-email-birth"> -->
+          <div class="input-box">
+            <p class="input-details">Phone:</p>
+            <input type="number" id="phone" placeholder="Enter Your Mobile Number" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Email:</p>
+            <input type="email" id="email" placeholder="Enter Your Email">
+          </div>
+          <div class="input-box">
+            <p class="input-details">Primary Care Physician:</p>
+            <input type="text" id="primary care" placeholder="Your Primary Care Physician" />
+          </div>
+          <div class="input-box">
+            <p class="input-details">Sex:</p>
+            <label for="sex">Male</label>
+            <input type="radio" name="sex" id="sex" value="male">
+            <label for="sex">Female</label>
+            <input type="radio" name="sex" id="sex" value="female">
+            <label for="sex">Other</label>
+            <input type="radio" name="sex" id="sex" value="other">
+          </div>
+          
+          <div class="input-box" style="padding-right:1rem;">
+            <p class="input-details">Marital Status:</p>
+            <label for="sex">Married</label>
+            <input type="radio" name="marital-status" id="marital-status" value="married">
+            <label for="sex">Unmarried</label>
+            <input type="radio" name="marital-status" id="marital-status" value="umnarried">
+            <label for="sex">Single</label>
+            <input type="radio" name="marital-status" id="marital-status" value="single">
+          </div>
+          <div class="input-box">
+            <p class="input-details">Previous Chiropractic Treatment:</p>
+            <label for="previous-chiropractoc-treatment">Yes</label>
+            <input type="radio" name="previous-chiropractoc-treatment" id="previous-chiropractoc-treatment" value="yes">
+            <label for="previous-chiropractoc-treatment">No</label>
+            <input type="radio" name="previous-chiropractoc-treatment" id="previous-chiropractoc-treatment" value="no">
+          </div>
+          <div class="input-box">
+            <p class="input-details">Referred by:</p>
+            <select name="referred" id="referred">
+                <option value="male">Whatsapp</option>
+                <option value="female">Instagram</option>
+                <option value="female">Website</option>
+                <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+      </form>
+
+      <!--work information  -->
+      <div class="work-information">
+          <h2 class="work-title">Work Information</h2>
+          <div class="work-details">
+            <div class="input-box">
+            <p class="input-details">Name:</p>
+            <input type="text" id="name" placeholder="Enter Your Name" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Address:</p>
+            <textarea name="address" id="address" cols="30" rows="2" placeholder="Enter Your Address"></textarea>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Phone:</p>
+            <input type="number" id="phone" placeholder="Enter Your Mobile Number" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Occupation:</p>
+            <input type="text" id="occupation" placeholder="Enter Your Occupation" required/>
+          </div>
+          </div>
+      </div>
+      <!-- Spouse Information /POlicy holder -->
+      <div class="spouse-information">
+          <h2 class="spouse-title">Spouse Information/Policy Holder</h2>
+          <div class="spouse-details">
+            <div class="input-box">
+            <p class="input-details">Full Name:</p>
+            <input type="text" id="name" placeholder="Enter Your Name" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Birth Date:</p>
+            <input type="date" id="birthdate" placeholder="Enter Your DOB">
+          </div>
+          <div class="input-box">
+            <p class="input-details">Occupation:</p>
+            <input type="text" id="occupation" placeholder="Enter Your Occupation" required/>
+          </div>
+          </div>
+      </div>
+
+      <!-- In case of emergency -->
+      <div class="emergency-information">
+          <h2 class="emergency-title">In case of Emergency</h2>
+          <div class="emergency-details">
+            <div class="input-box">
+            <p class="input-details">Contact Person Name:</p>
+            <input type="text" id="name" placeholder="Enter Your Name" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Contact Person Phone:</p>
+            <input type="number" id="phone" placeholder="Enter Your Mobile Number" required/>
+          </div>
+          <div class="input-box">
+            <p class="input-details">Relationship:</p>
+            <input type="text" id="occupation" placeholder="Enter Your Occupation"/>
+          </div>
+          </div>
+      </div>
+      <!-- I Agree checkbox-->
+      <div class="understand-agree">
+          <input type="checkbox" name="agree" id="agree">
+          <span>I agree and understand to authorize the company, and/or other doctors/staff to administer examination procedure and treatments, as deemed necessary.</span>
+      </div>
+      <div>
+          <p class="date">Date</p>
+          <input type="date">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </div>
+</body>
+</html>

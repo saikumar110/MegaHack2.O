@@ -1,0 +1,159 @@
+{% extends 'models/base.html' %}
+{% load static %}
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+{% endblock %}
+
+    {% block body %}
+    <div class="container-fluid p-4  ">
+       <h3 class="font-weight-bold text-center">Malaria Prediction</h3>
+    </div>
+
+
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-primary mx-auto" data-bs-dismiss="modal">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="">
+        <div class=" row  justify-content-center ">
+            
+            <form class=" col-lg-5 p-5  bg-light text-dark border border-success" action="#">
+                <label for="">Fever</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Cold</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Rigor</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Head-ache</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Bitter-Tongue</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Vomitting</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Diarrhea</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Convulsion</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Anamia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Jaundice</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Cocacola_urine</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Hypoglycemia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">Prostraction</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">hyperpyrexia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">sex_Female</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">sex_Female</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                <label for="">sex_Male</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+                
+                <button  type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary my-5 text-center">check</button>
+            </form>
+
+            
+        </div>
+    </div>
+  
+
+
+
+    {% endblock %}
+
+
+
